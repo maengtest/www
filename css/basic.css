@@ -1,0 +1,259 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	height: 100%;
+	margin-bottom: 1px;
+}
+
+
+:focus {
+	outline: 0;
+}
+body {
+	color: black;
+	background: white;
+	font-size: 100.01%;
+	text-align: left;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a {
+	text-decoration: none;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6{
+	color:#3763BC;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h3 {
+	font-size: 12px;
+	
+}
+
+
+p,li,span,dt,dd{
+	font-size: 12px;
+	line-height: 1.7em;
+}
+
+*{
+ margin:0;
+ padding:0;
+}
+
+#slogan{
+	background-color:#fff;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;	
+	border-bottom: 1px solid #fff;
+	color:#3763BC;
+	font-style:italic;
+	padding:12px;
+	position:absolute;
+	right:10px;
+	text-align:center;
+	top:-50px;
+}
+body{
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif; 
+	font-size:62.5%;
+	line-height:1.5m;
+    color: #434343;
+    background-color: #f6f6f6;
+}
+
+#wrapper{
+	border: 1px solid #ccc;
+	width: 750px;
+	margin: 60px auto 0;
+	background-color: #fff;
+	overflow: auto;
+}
+
+#main_content{
+	float:left;
+	margin-bottom:70px;
+	padding:0 1em 0 2em;
+	width:50em;
+	/*border-right: 1px solid #f0f0f0;*/
+}
+
+#sidebar{
+	float: left;
+	width: auto;
+	padding: 40px 1.5em 1em;
+	width:185px;
+	font-size: 11px;
+	margin-bottom: 2em;
+	/*border-left: 1px solid #f0f0f0;*/
+}
+
+
+#sidebar h2{
+	font-size: 14px;
+	color: #888;
+	text-transform: uppercase;
+	padding: .5em 0;
+	border-bottom: 1px solid #ccc;
+}
+
+#sidebar p{
+	padding: 0;
+	font-size: 11px;
+}
+
+
+#main_content p, h1, h2, h3, h4,dt,dd{
+	padding: 1em 0;		
+}
+
+
+
+#main_content ul, li{
+ padding-left:50px;
+ padding-right:15px;
+}
+
+/*Make the button nearer it's listed item*/
+li{
+  padding-left:1px;
+  list-style-type:disc;
+}
+
+dt{
+  font-weight:bold;
+}
+
+#header a {
+  text-decoration:none;
+}
+
+#header{
+/*    background:#A1A6AC none repeat scroll 0 0;*/
+/* 	background:#999966 none repeat scroll 0 0; */
+    clear:both;
+    height:118px;
+}
+
+#footer{
+	border-top:1px solid #CCCCCC;
+	clear:both;
+	padding:10px;
+	position:relative;
+}
+
+#nav_top {
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;	
+	padding: 0 1em;
+	overflow: auto;
+	font-size:12px;
+}
+
+#nav_top li {
+    background-color:#FFFFFF;
+    display:block;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    padding:6px 0;
+    float: left;
+    margin-right: 1em;
+}
+
+#nav_top li a {
+    color:#676767;
+    padding:6px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+#nav_top li a:hover {
+    background-color:#f0f0f0;
+    text-decoration:none;
+    color:#888;
+}
+
+#nav_footer {
+    margin:14px 0 0;
+}
+
+#nav_footer li {
+    display:inline;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    padding:6px 0;
+}
+
+#nav_footer li a {
+    color:#000000;
+    padding:6px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+#nav_footer li a:hover {
+    text-decoration:underline;
+}
+
+
+.emphasize_container{
+	text-align: center;
+	margin:0em 0 2em;
+	padding: 1em;
+	display:block !important;
+}
+
+a.emphasize_link{
+	font-size: 16px;
+	color: white;
+	padding: .5em;
+	background-color: #3763BC;
+	text-decoration: none;
+	width:auto;	
+	display: block;
+	font-style: italic;
+}
